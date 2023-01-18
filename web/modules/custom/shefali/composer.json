@@ -1,0 +1,13 @@
+{
+    "name": "shefali",
+    "type": "drupal-module",
+    "description": "my module for learning",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/shefali",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/shefali",
+        "source": "http://cgit.drupalcode.org/shefali",
+    },
+}
