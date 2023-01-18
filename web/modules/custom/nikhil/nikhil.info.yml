@@ -1,0 +1,5 @@
+name: 'nikhil'
+type: module
+description: 'my module'
+core: 8.x
+package: 'Custom'
