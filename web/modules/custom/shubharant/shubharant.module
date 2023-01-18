@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains shubharant.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function shubharant_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the shubharant module.
+    case 'help.page.shubharant':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function shubharant_theme() {
+  return [
+    'shubharant' => [
+      'render element' => 'children',
+    ],
+  ];
+}
