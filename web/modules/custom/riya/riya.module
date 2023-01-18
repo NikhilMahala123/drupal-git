@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains riya.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function riya_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the riya module.
+    case 'help.page.riya':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function riya_theme() {
+  return [
+    'riya' => [
+      'render element' => 'children',
+    ],
+  ];
+}
