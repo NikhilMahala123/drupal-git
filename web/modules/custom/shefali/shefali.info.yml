@@ -1,0 +1,5 @@
+name: 'shefali'
+type: module
+description: 'my module for learning'
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains shefali.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function shefali_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the shefali module.
+    case 'help.page.shefali':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('my module for learning') . '</p>';
+      return $output;
+
+    default:
+  }
+}
