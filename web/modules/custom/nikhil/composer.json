@@ -1,0 +1,13 @@
+{
+    "name": "nikhil",
+    "type": "drupal-module",
+    "description": "my module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/nikhil",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/nikhil",
+        "source": "http://cgit.drupalcode.org/nikhil",
+    },
+}

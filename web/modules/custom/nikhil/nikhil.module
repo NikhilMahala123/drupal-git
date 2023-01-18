@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains nikhil.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function nikhil_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the nikhil module.
+    case 'help.page.nikhil':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('my module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
