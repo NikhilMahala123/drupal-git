@@ -1,0 +1,5 @@
+name: MyBlock 
+type: module
+description: block making
+core_version_requirement: ^8 || ^9
+package: Custom
