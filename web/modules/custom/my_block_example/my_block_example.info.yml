@@ -1,0 +1,5 @@
+name: My Block Example
+type: module
+description: Defines a custom block.
+core_version_requirement: ^9
+package: WebWash
