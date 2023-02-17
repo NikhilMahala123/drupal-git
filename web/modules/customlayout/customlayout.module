@@ -1,0 +1,12 @@
+<?php
+function customlayout_theme() {
+  return [
+    'rendertemplate' => [
+      // Here you can pass any variables you want, if necessary.
+      'variables' => ['var1' => NULL],
+    ],
+  ];
+}
+
+function _schema() {
+}

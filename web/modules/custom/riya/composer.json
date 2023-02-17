@@ -1,0 +1,13 @@
+{
+    "name": "riya",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/riya",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/riya",
+        "source": "http://cgit.drupalcode.org/riya",
+    },
+}
